@@ -26,7 +26,7 @@ if [[ -n "$SOUND_SPOTIFY_USERNAME" ]] && [[ -n "$SOUND_SPOTIFY_PASSWORD" ]]; the
 fi
 
 # SOUND_SPOTIFY_DISABLE_CACHE: Disable Spotify audio cache
-if [[ -z "$SOUND_SPOTIFY_DISABLE_CACHE" ]]; then
+if [[ ! -z "$SOUND_SPOTIFY_DISABLE_CACHE" ]]; then
   set -- "$@" \
     --disable-audio-cache
 fi
