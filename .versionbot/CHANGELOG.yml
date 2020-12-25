@@ -1,4 +1,18 @@
 - commits:
+    - subject: 'docs: fix dead link'
+      hash: 09f39470c81a617054597450aea0afdd24f0e071
+      body: |
+        Fix dead link in docs page
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Aaron Shaw <aaron@balena.io>
+        signed-off-by: Aaron Shaw <aaron@balena.io>
+      author: Aaron Shaw
+      nested: []
+  version: 3.4.3
+  date: 2020-12-25T22:02:50.771Z
+- commits:
     - subject: 'docs: Patch ALSA bridge install script'
       hash: b85b466163620841a62f692f395b8490c5570f83
       body: ''
