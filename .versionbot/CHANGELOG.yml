@@ -1,4 +1,23 @@
 - commits:
+    - subject: 'upnp: Set UUID to differentiate between instances'
+      hash: a5e6fa9f5017bbc3241669dc9ac027f2db37c923
+      body: |
+        gmrender uses a hard coded UUID if none is supplied.
+        This resulted in all upnp servers in balena-sound
+        using the same ID, and clients showing whichever
+        server last broadacast.
+      footer:
+        Connects-to: '#380'
+        connects-to: '#380'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: jody@gnome.org
+        signed-off-by: jody@gnome.org
+      author: Jody Goldberg
+      nested: []
+  version: 3.4.4
+  date: 2020-12-30T15:07:54.117Z
+- commits:
     - subject: 'docs: add iqaudio and JustBoom boards'
       hash: 9ac3380462fb7bac17a4878a6c916b14f271cc4d
       body: |
